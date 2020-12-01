@@ -57,6 +57,3 @@ def send_message():
         return jsonify(resp)
     else: 
         return jsonify(success=False)
-
-
-app.run()
